@@ -14,17 +14,15 @@ public class Principal {
 	
 	public static void main(String[] args) {
 		
-		Punto punto1, punto2;
-		Linea linea;
 		boolean salir;
 		
 		System.out.println("- Punto 1 -");
-		punto1 = solicitarPunto();
+		Punto punto1 = solicitarPunto();
 		
 		System.out.println("\n- Punto 2 -");
-		punto2 = solicitarPunto();
+		Punto punto2 = solicitarPunto();
 		
-		linea = crearLinea(punto1, punto2);
+		Linea linea = crearLinea(punto1, punto2);
 		
 		do {
 			mostrarMenu();

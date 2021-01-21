@@ -7,7 +7,7 @@ public class Linea {
 	
 	public Linea(Punto punto1, Punto punto2) throws LineaException{
 		
-		if(punto1.equals(punto2)) throw new LineaException("Error. No pueden ser 2 puntos iguales.");
+		if(punto1.equals(punto2)) throw new LineaException("Error. No pueden ser dos puntos iguales.");
 		
 		this.punto1 = punto1;
 		this.punto2 = punto2;
